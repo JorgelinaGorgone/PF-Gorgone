@@ -1,0 +1,24 @@
+//rutas
+
+//utilities
+@import 'utilities/_colors';
+@import 'utilities/_mixins';
+@import 'utilities/_resets';
+
+//layouts
+@import 'layouts/footer.scss';
+@import 'layouts/header.scss';
+
+//pages
+
+@import 'pages/account.scss';
+@import 'pages/faq.scss';
+@import 'pages/index.scss';
+@import 'pages/shop.scss';
+@import 'pages/store.scss';
+@import 'pages/tips.scss';
+
+//media
+@import 'media/mediaqueries.scss';
+
+

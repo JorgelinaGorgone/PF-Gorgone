@@ -1,0 +1,35 @@
+.Shop {
+  display: grid;
+  grid-template-columns: repeat;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.Shop-container {
+  display: grid;
+  grid-template-columns: 3 1fr;
+  gap: 20px;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 0;
+}
+.Shop-container h2 {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.imagesshop {
+  border-radius: 10px;
+  max-height: 200px;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}/*# sourceMappingURL=shop.css.map */
