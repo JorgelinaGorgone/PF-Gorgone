@@ -6,28 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="skincare, women, make up">
     <meta name="keywords" content="skin, skincare, skincare women">
-    <title>Glow</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <title>Glow</title>
 </head>
+
 <body>
-    
-   <header class="header">
-        <div class="menu container">
-          <div class="headerimg">
-            <img class="headerimg" src="images/2849808_shop_package_multimedia_icon.png" alt="">
-          </div>
-        </div>
-            <nav class="navbar" style="background-color: #DAA598;">
-                <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">GLOW</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+  <section class="TopBanner show">
+    <div class="TopBanner-body" style="Color: black; background-image: linear-gradient(to right, #D7C2B4, #DAA598);">
+      <p class="animate__animated animate__flash">FREE SHIPPING ON ORDERS OVER $40</p> 
+    </div>
+  </section>
+  
+  <header class="header">
+    <nav class="navbar">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="pages/Account.html">Account</a>
                     </li>
@@ -35,7 +34,7 @@
                         <a class="nav-link" href="pages/Stores.html">Stores</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pages/Shop.html"">Shop</a>
+                        <a class="nav-link" href="pages/Shop.html">Shop</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="pages/Tips.html">Tips</a>
@@ -43,60 +42,80 @@
                     <li class="nav-item">
                         <a class="nav-link" href="pages/FAQ.html">FAQs</a>
                     </li>
-                    </ul>
-                </div>
-            </nav>
-        </div> 
-    </header>
-
+                </ul>
+        </div>
+    </nav>
+    
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">GLOW</a>
+    </div>  
+    <div class="headerimg">
+        <img class="headerimg" src="../images/2849808_shop_package_multimedia_icon.png" alt="">
+    </div>   
+</header>
+    
     <section class="welcome">
-      <div class="welcome-text-container"> 
+      <div class="welcome-text-container" style="width: auto;"> 
         <h1 class="animate__animated animate__fadeIn">Because a gorgeous and glowing skin is for everyone.</h1>
       </div>
     </section>
-
-    <section class="bestsellerproducts-container">
-        <div class="bestsellerproduct">
-            <div id="carouselExample" class="carousel slide">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="images/img42.jpg" class="image-bsp" alt="...">
-                    <h2 class="text-center">Best seller products</h2>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/img29.jpg" class="image-bsp" alt="...">
-                    <h2 class="text-center">Best seller products</h2>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/img30.jpg" class="image-bsp" alt="...">
-                    <h2 class="text-center">Best seller products</h2>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-         </div>      
-      </div>   
-    </section>
-
-    
-    <section class="Subscribe-container">
-    <div class="card">
-        <div class="card-body">
-          <h2 class="card-title">Subscribe to Glow</h2>
-          <p class="card-text">Glaze your inbox with tips, tricks & exclusive content</p>
-          <input type="email" placeholder="Email Address"> 
-          <a href="#" class="btn btn-primary">Subscribe</a>
-        </div>
+    <div class="card text-center mb-3" style="width: auto;">
+      <div class="card-body">
+        <h2 class="card-title">Cart</h2>
+        <p class="card-text">add $40.00 or more for FREE shipping</p>
+        <a href="../pages/Shop.html" class="btn btn-primary">Shop</a>
       </div>
-    </section>
-
+    </div>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/img42.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Glazing lotion</h5>
+              <p>The essential prep layer for a hydrated SKIN.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/img29.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Serum glazing fluid</h5>
+              <p>Curated skincare essential.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/img30.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Barrier Restore Cream</h5>
+              <p>The rich recovery layer.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+ 
+      <section class="Subscribe-container" style="width: auto;">
+        <div class="card">
+            <div class="card-body">
+              <h2 class="card-title">Subscribe to Glow</h2>
+              <p class="card-text">Glaze your inbox with tips, tricks & exclusive content</p>
+              <input type="email" placeholder="Email Address"> 
+              <a href="#" class="btn btn-primary">Subscribe</a>
+            </div>
+          </div>
+        </section>
+    
     <footer class="footer">
       <div class="text-footer">
           <h2>Support</h2>
@@ -110,7 +129,8 @@
       </div>  
     </footer>
   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script> 
 </body>
 </html>
 

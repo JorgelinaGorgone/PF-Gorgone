@@ -1,31 +1,31 @@
 .header {
     background-image: linear-gradient(to right, #D7C2B4, #DAA598);
     padding: 0%;
-    justify-content: center;
+    justify-content: space-between;
     background-size: cover;
     display: flex;
-    margin-top: 0;
-    width: 100%;
+    padding: 0px 40px;
+    height: 120%;
 }
-.container {
-    max-width: 1200px;
-    margin: auto;
+
+.header-div-menu{
+    @include centrar;
 }
-.menu {
-    list-style-type: none;
-    position: sticky;
-    top: 0%;
-    left: 0%;
-    right: 0%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+.menu{
+    .button{
+        color: black;
+        
+    }
 }
-.headerimg {
-    width: 35px;
-    height: 35px;
-    flex-direction: row;
-    display: flex;
-    margin: 0px;
-    margin-top: 0px;
+
+.icons{
+    @include centrar;
+    font-size: 40px;
+}
+
+.button{
+    i{
+        font-size: 35px;
+    }
 }

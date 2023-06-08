@@ -20,6 +20,19 @@
   justify-content: left;
   padding: 10px;
 }
+.TopBanner {
+  margin-bottom: 0.9375rem;
+  position: relative;
+}
+
+.TopBanner-body p {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .75rem;
+  line-height: .875rem;
+  text-align: center;
+  margin: 0;
+}
 
 .header {
   background-image: linear-gradient(to right, #D7C2B4, #DAA598);
@@ -29,39 +42,47 @@
   display: flex;
   margin-top: 0;
   width: 100%;
+
 }
 
 .container {
   max-width: 1200px;
-  margin: auto;
+  margin: auto;  
+  
 }
 
-.menu {
+.navbar {
   list-style-type: none;
   position: sticky;
   top: 0%;
   left: 0%;
   right: 0%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: left;
+  margin-left: 25px;
+}
+
+.container-fluid {
+  margin-top: 15px;
+  justify-content: center;
+  margin-right: 20px;
 }
 
 .headerimg {
-  width: 35px;
-  height: 35px;
-  flex-direction: row;
-  display: flex;
-  margin: 0px;
-  margin-top: 0px;
+  width: 30px;
+  height: 30px;
+  align-items: end;
+  margin-top: 5px;
+  margin-right: 25px;
 }
 
 .welcome {
-  height: 500px;
+  height: 100px;
   background-image: url(img24.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .welcome-text-container {
@@ -72,34 +93,83 @@
   justify-content: center;
 }
 .welcome-text-container h1 {
-  font-size: 36px;
+  font-size: 25px;
   font-weight: 700;
+  margin-left: 25px;
+  padding-top: 20px;
+}
+    
+
+.Subscribe-conteiner {
+  font-size: 18px;
+  color: white;
+  display: flex;
+  margin-top: 50px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.accountcard {
+  justify-content: center;
   margin-left: 50px;
 }
 
-.Bestsellerproducts-container {
+
+.button-pink {
+background-color: #D7C2B4;
+color: black;
+padding: 10px 25px;
+display: flex;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.Shop-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
   justify-content: center;
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin-top: 20px;
+  margin-left: 70px;
+  margin-right: 10px;
+  padding-left: 70px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+    
+}
+
+.text-shop{
+  justify-content: center;
+}
+
+.FAQ-welcome {
+  height: 100px;
+  background-image: url(img24.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   margin-bottom: 20px;
 }
 
-.Bestsellerproduct {
+.accordion-item {
+  padding: 0%;
+  height: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+ 
+}
+.FAQ-welcome h1 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: 25px;
+  padding-top: 30px;
 }
 
-.image-bsp {
-  width: 500px;
-  height: 500px;
-  margin-bottom: 70px;
-  margin-top: 70px;
-}
 
 /*# sourceMappingURL=estilos.css.map */
