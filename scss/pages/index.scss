@@ -1,59 +1,35 @@
 .welcome {
-    height: 500px;
-    background-image: url(img24.jpg);
+    height: 100px;
+    background-image: url(../images/img24.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-}
-.welcome-text-container {
+    margin-bottom: 20px;
+  }
+  
+  .welcome-text-container {
     padding: 0%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    h1{
-        font-size: 36px;
-        font-weight: 700;
-        margin-left: 50px;
-    }
-}
-
-.Bestsellerproducts-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
-    justify-content: center;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-bottom: 50px;
-}
-
-.Bestsellerproduct {
-    display: flex;
-    justify-content: center;
-}
-
-.image-bsp{
-    width: 500px;
-    height: 500px; 
-    margin-bottom: 70px;
-    margin-top: 70px;
-}
-.text-bsp{
-    align-items: center;
-    justify-content: space-between;
-    font-size: 14px;
-    margin-top: 190px;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.Subscribe-conteiner {
+  }
+  .welcome-text-container h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 25px;
+    padding-top: 20px;
+  }
+      
+  .Subscribe-container {
     font-size: 18px;
     color: white;
     display: flex;
+    width: auto;
+    height: auto;
     justify-content: center;
-}
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;   
+  }
+  

@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glow</title>
+    <meta name="description" content="skincare, women, make up">
+    <meta name="keywords" content="skin, skincare, skincare women">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Glow</title>
 </head>
+
 <body>
     
     <section class="TopBanner show">
@@ -28,9 +31,6 @@
                             <a class="nav-link" href="Account.html">Account</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Stores.html">Stores</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="Shop.html">Shop</a>
                         </li>
                         <li class="nav-item">
@@ -46,9 +46,46 @@
             <a class="navbar-brand" href="../index.html">GLOW</a>
         </div>  
         <div class="headerimg">
-            <img class="headerimg" src="../images/2849808_shop_package_multimedia_icon.png" alt="">
-        </div>   
+            <a href="../pages/Shop.html">
+              <img class="headerimg" src="../images/2849808_shop_package_multimedia_icon.png" alt="" width="50px" height="50px">
+            </a>
+        </div>      
     </header>
+
+    <section class="welcome">
+        <div class="welcome-text-container" style="width: auto;"> 
+          <h1 class="animate__animated animate__fadeIn">Welcome to your SKINCARE closet.</h1>
+        </div>
+    </section>
+
+    <div class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="accountcard">
+            <div class="card" style="width: 25rem; height: 50rem; text-align: center; align-items: center;">
+                <img src="../images/img75.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form>
+                        <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sing up</button>
+                    </form>
+                    <hr>
+                    <div>
+                        <p class="card-text">Don't have an account?</p>
+                            <a href="a" class="btn btn-primary">Sing in</a>
+                    </div>       
+                </div>
+            </div>
+        </div>
+    </div>
     
     <div class="Shop-container">
         <article>
@@ -56,42 +93,42 @@
             <div class="text-shop">
                 <h3>Product one</h3>
             </div>
-            <button class="button-pink"> Shop </button>
+            <button class="btn btn-primary"> Shop </button>
         </article>
         <article>
             <img src="../images/img45.jpg" alt="imagesshop" width="400px">
             <div class="text-shop">
                 <h3>Product two</h3>
             </div>
-            <button class="button-pink"> Shop </button>
+            <button class="btn btn-primary"> Shop </button>
         </article>
         <article>
             <img src="../images/img46.jpg" alt="imagesshop" width="400px">
             <div class="text-shop">
                 <h2>Product three</h2>
             </div>
-            <button class="button-pink"> Shop </button> 
+            <button class="btn btn-primary"> Shop </button> 
         </article>
         <article>
             <img src="../images/img46.jpg" alt="imagesshop" width="400px">
             <div class="text-shop">
                 <h3>Product four</h3>
             </div>
-            <button class="button-pink"> Shop </button>
+            <button class="btn btn-primary"> Shop </button>
         </article>
         <article>
             <img src="../images/img45.jpg" alt="imagesshop" width="400px">
             <div class="text-shop">
                 <h3>Product five</h3>
             </div>
-            <button class="button-pink"> Shop </button>
+            <button class="btn btn-primary"> Shop </button>
         </article>
         <article>
             <img src="../images/img44.jpg" alt="imagesshop" width="400px">
             <div class="text-shop">
                 <h3>Product six</h3>
             </div>
-            <button class="button-pink"> Shop </button>
+            <button class="btn btn-primary"> Shop </button>
         </article>
     </div>
     
